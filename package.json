@@ -1,0 +1,30 @@
+{
+  "name": "koa2-session-mysql",
+  "version": "1.0.0",
+  "description": "Store koa session in mysql.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shushanfx/koa2-session-mysql.git"
+  },
+  "keywords": [
+    "storage",
+    "mysql",
+    "koa",
+    "session"
+  ],
+  "author": "shushanfx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shushanfx/koa2-session-mysql/issues"
+  },
+  "homepage": "https://github.com/shushanfx/koa2-session-mysql#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "mysql": "^2.15.0",
+    "promise-mysql": "^3.2.1"
+  }
+}
